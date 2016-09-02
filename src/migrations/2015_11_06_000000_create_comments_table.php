@@ -12,9 +12,9 @@
  * It is also available at the following URL: http://opensource.org/licenses/MIT
  *
  * @version    1.0.0
- * @author     Slynova
+ * @author     ThyagoBrejaoS
  * @license    MIT
- * @copyright  (c) Slynova
+ * @copyright  (c) ThyagoBrejao
  */
 
 use Illuminate\Database\Schema\Blueprint;

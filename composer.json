@@ -1,17 +1,17 @@
 {
-    "name": "slynova/laravel-commentable",
+    "name": "thyagobrejao/laravel-commentable",
     "description": "Polymorphic threaded comments for Laravel",
     "keywords": ["laravel", "commentable", "comment", "threaded", "nested set"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/slynova-org/laravel-commentable/issues",
-        "source": "https://github.com/slynova-org/laravel-commentable"
+        "issues": "https://github.com/thyagobrejao/laravel-commentable/issues",
+        "source": "https://github.com/thyagobrejao/laravel-commentable"
     },
     "authors": [
         {
-            "name": "Romain Lanz",
-            "homepage": "https://github.com/RomainLanz",
-            "email": "romain.lanz@slynova.ch",
+            "name": "Thyago Assunção",
+            "homepage": "https://github.com/thyagobrejao",
+            "email": "thyago.brejao@gmail.com",
             "role": "Developer"
         }
     ],
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Slynova\\Commentable\\": "src/Commentable"
+            "ThyagoBrejao\\Commentable\\": "src/Commentable"
         }
     }
 }

@@ -1,4 +1,4 @@
-<?php namespace Slynova\Commentable\Traits;
+<?php namespace ThyagoBrejao\Commentable\Traits;
 
 /**
  * Part of the Laravel-Commentable package.
@@ -12,12 +12,12 @@
  * It is also available at the following URL: http://opensource.org/licenses/MIT
  *
  * @version    1.0.0
- * @author     Slynova
+ * @author     ThyagoBrejao
  * @license    MIT
- * @copyright  (c) Slynova
+ * @copyright  (c) ThyagoBrejao
  */
 
-use Slynova\Commentable\Models\Comment;
+use ThyagoBrejao\Commentable\Models\Comment;
 
 trait Commentable
 {

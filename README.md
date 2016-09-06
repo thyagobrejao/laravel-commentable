@@ -24,7 +24,7 @@ This package use Nested Set pattern with [Baum](https://github.com/etrepat/baum)
 
 1. Require the package with [Composer](https://getcomposer.org).
     ```shell
-    $ composer require slynova/laravel-commentable
+    $ composer require thyagobrejao/laravel-commentable
     ```
 
 2. Add the package to your application service providers in `config/app.php`.
@@ -34,14 +34,14 @@ This package use Nested Set pattern with [Baum](https://github.com/etrepat/baum)
         Illuminate\Foundation\Providers\ArtisanServiceProvider::class,
         Illuminate\Auth\AuthServiceProvider::class,
         ...
-        Slynova\Commentable\ServiceProvider::class,
+        ThyagoBrejao\Commentable\ServiceProvider::class,
 
     ],
     ```
 
 3. Publish the package's migrations to your application and migrate.
     ```shell
-    $ php artisan vendor:publish --provider="Slynova\Commentable\ServiceProvider" --tag="migrations"
+    $ php artisan vendor:publish --provider="ThyagoBrejao\Commentable\ServiceProvider" --tag="migrations"
     $ php artisan migrate
     ```
 
